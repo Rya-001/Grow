@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    
+  <style>
+    body {
+      padding-top: 100px;
+    }
+
+    #navbar .navbar-fixed {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    #header img.img-fluid {
+      height: 400px;
+      object-fit: cover;
+      filter: saturate(80%) brightness(60%) contrast(100%);
+    }
+
+    #header .text-align {
+      z-index: 10;
+    }
+
+    #contain .rounded-4 {
+      height: 200px;
+      background: #ffffff;
+    }
+
+    #contain .container-fluid {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding-top: 3%;
+    }
+
+    #container .rounded-5 {
+      height: 350px;
+    }
+
+    #container .carousel-inner {
+      width: 1200px;
+    }
+
+    #container img {
+      width: 100%;
+      max-width: 800px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(1);
+    }
+
+    #carouselDestinasi h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      padding-top: 1%;
+      padding-left: 17%;
+    }
+
+    #contain-2 {
+      position: relative;
+      z-index: 2;
+      margin-left: 15%;
+    }
+
+    #footer a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+   
+    .dropdown-item:active {
+      background-color: rgb(70, 147, 70) !important;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded navbar-fixed">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="1.html">
+            <img src="3.png" alt="..." width="50" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+              <li class="nav-item">
+                <a class="nav-link" href="1.html">Beranda</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >Produk</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="2.html">Kategori produk</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="3.html">Promo produk</a>
+                    </li>
+                  </ul>
+                </li>
+                
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="4.html">Tentang kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.html">Bantuan</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-dark" type="submit">
+                  Search
+                </button>
+              </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div id="header">
+    <div class="position-relative">
+      <img src="1.jpg" class="img-fluid w-100 rounded-3" alt="...">
+  
+      <div class="text-align text-white position-absolute top-50 start-0 translate-middle-y ms-5">
+        <h2><b>Grow: Menghidupkan Ruangmu dengan Sentuhan Alam</b></h2>
+        <p>Grow menghadirkan pengalaman berkebun dengan tanaman berkualitas tinggi</p>
+      </div>
+  </div>
+
+  <div id="contain">
+    <div class="rounded-4">
+      <div class="container-fluid">
+        <h3><b>Grow</b></h3>
+        <p>Kami adalah perusahaan yang berkomitmen untuk menghadirkan pengalaman berkebun bagi  <br> pelanggan di seluruh indonesia melalui tanaman berkualitas tinggi.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="container">
+    <div class="rounded-5 bg-body-tertiary p-3">
+      <div id="carouselDestinasi" class="carousel slide" data-bs-ride="carousel">
+        <h3><b>Program Grow</b></h3><br>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center gap-3">
+              <img src="1.jpg" class="rounded-4">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center gap-3">
+              <img src="2.jpg" class="rounded-4">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestinasi" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon rounded-circle" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDestinasi" data-bs-slide="next">
+          <span class="carousel-control-next-icon rounded-circle" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="contain-2">
+    <div class="container mt-5"> 
+      <div class="row">
+        <div class="col-md-6 bg-body-tertiary text-dark p-4 rounded-4">
+          <h2 class="mb-4"><b>Ada pertanyaan tentang Perusahaan? Hubungi Kami!</b></h2>
+          <p>Grow menyediakan layanan untuk mempermudah<br>pelanggan mendapatkan informasi</p><br>
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email Anda">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Keterangan</label>
+              <textarea class="form-control" id="pesan" rows="3" placeholder="Keterangan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Kirim</button>
+          </form>
+        </div>
+  
+        <div class="col-md-3 offset-md-1 d-flex align-items-center justify-content-center">
+          <img src="2.jpg" alt="Hubungi Kami" class="img-fluid rounded-4 h-100" style="object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </div><br>
+  
+
+  <div id="footer">
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-md-left">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3 text-start">
+                <img src="3.png" alt="..." width="70" height="70" />
+                <p>
+                  Hubungi kami melalui media sosial untuk mendapatkan informasi
+                  <br />mengenai produk Grow.
+                </p>
+                <div class="mt-3">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    style="color: #ffffff; font-size: 20px"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    style="color: #ffffff; font-size: 20px; margin-left: 10px"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-around mt-4 mt-md-0">
+              <div>
+                <h6 class="text-uppercase font-weight-bold mb-3">
+                  <u>Produk</u>
+                </h6>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="2.html" class="text-white text-decoration-none"
+                      >Kategori</a
+                    >
+                  </li>
+                  <li>
+                    <a href="3.html" class="text-white text-decoration-none"
+                      >Promo</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6 class="text-uppercase font-weight-bold mb-3">
+                  <a href="5.html" class="footer-link"><u>Blog</u></a>
+                </h6>
+              </div>
+              <div>
+                <h6 class="text-uppercase font-weight-bold mb-3">
+                  <a href="6.html" class="footer-link"><u>Bantuan</u></a>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <hr class="border-top border-secondary my-2" />
+
+          <div class="text-left">
+            <p class="mb-0">&copy; 2025 Perusahaan Inc. All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
