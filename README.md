@@ -5,14 +5,18 @@ Aplikasi ini dikembangkan dengan menggunakan HTML, CSS, JavaScript, dan Bootstra
 
 ✨ Fitur Utama:
 
-1. Kategori Produk 
-Fitur ini menampilkan daftar tanaman hias yang ditawarkan oleh Grow yang ditampilkan dalam bentuk tabel.
+1. Kategori Produk
+
+   Fitur ini menampilkan daftar tanaman hias yang ditawarkan oleh Grow yang ditampilkan dalam bentuk tabel.
 
 2. Promo
-Fitur Promo memberikan informasi terkini mengenai penawaran spesial, diskon, dan bundling produk yang disediakan Grow. Dirancang untuk menarik minat pelanggan guna mendorong pembelian melalui strategi pemasaran yang terukur.
+  
+   Fitur Promo memberikan informasi terkini mengenai penawaran spesial, diskon, dan bundling produk yang disediakan Grow. Dirancang untuk menarik minat pelanggan guna mendorong pembelian melalui strategi pemasaran yang terukur.
 
 3. Berita
-Fitur ini menyajikan pembaruan mengenai perkembangan brand yang ditujuankan untuk membangun kepercayaan melalui keterlibatan pelanggan terhadap perjalanan merek secara profesional.
+
+   Fitur ini menyajikan pembaruan mengenai perkembangan brand yang ditujuankan untuk membangun kepercayaan melalui keterlibatan pelanggan terhadap perjalanan merek secara profesional.
 
 4. Bantuan
-Fitur Bantuan memberikan akses pengguna untuk mendapatkan informasi yang dibutuhkan dengan menghubungi layanan kontak pelanggan atau form pertanyaan yang tersedia.
+
+   Fitur Bantuan memberikan akses pengguna untuk mendapatkan informasi yang dibutuhkan dengan menghubungi layanan kontak pelanggan atau form pertanyaan yang tersedia.
